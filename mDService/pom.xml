@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zj.test</artifactId>
+        <groupId>mvnDemo</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mDService</artifactId>
+    <properties>
+        <moxie-core.version>1.4-SNAPSHOT</moxie-core.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+        <java.version>1.8</java.version>
+
+        <xbcommon.version>1.1-SNAPSHOT</xbcommon.version>
+        <xinbang-logging.version>1.0.0-SNAPSHOT</xinbang-logging.version>
+        <xinbang-monitor.version>0.0.2-SNAPSHOT</xinbang-monitor.version>
+        <xinbang-scheduler.version>1.0.0-SNAPSHOT</xinbang-scheduler.version>
+        <spring-boot.version>1.4.2.RELEASE</spring-boot.version>
+        <mybatis-spring.version>1.1.1</mybatis-spring.version>
+        <pagehelper.version>4.1.6</pagehelper.version>
+        <mysql.version>5.1.36</mysql.version>
+        <jdbcdslog.version>1.0.6.2</jdbcdslog.version>
+        <commons-config.version>1.1-SNAPSHOT</commons-config.version>
+        <commons-utils.version>1.1-SNAPSHOT</commons-utils.version>
+        <cif-version>2.0.0-SNAPSHOT</cif-version>
+        <credit-manage.version>1.1-SNAPSHOT</credit-manage.version>
+        <trade-bill.version>1.1.0-SNAPSHOT</trade-bill.version>
+        <acquiring.version>1.0-SNAPSHOT</acquiring.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.11</artifactId>
+            <version>0.8.2.1</version>
+        </dependency>
+
+
+        <!--<dependency>-->
+            <!--<groupId>org.projectlombok</groupId>-->
+            <!--<artifactId>lombok</artifactId>-->
+            <!--<version>1.16.10</version>-->
+            <!--<scope>compile</scope>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-parent</artifactId>
+            <version>${spring-boot.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>2.2.1</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

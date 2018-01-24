@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.actiongather:action-gather-client:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/actiongather/action-gather-client/1.0-SNAPSHOT/action-gather-client-1.0-20170728.033807-11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/actiongather/action-gather-client/1.0-SNAPSHOT/action-gather-client-1.0-20170728.033807-11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/actiongather/action-gather-client/1.0-SNAPSHOT/action-gather-client-1.0-20170728.033807-11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

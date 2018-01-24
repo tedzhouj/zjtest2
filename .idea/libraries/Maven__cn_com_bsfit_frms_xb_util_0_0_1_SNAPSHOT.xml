@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.com.bsfit:frms-xb-util:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/com/bsfit/frms-xb-util/0.0.1-SNAPSHOT/frms-xb-util-0.0.1-20170503.064540-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/com/bsfit/frms-xb-util/0.0.1-SNAPSHOT/frms-xb-util-0.0.1-20170503.064540-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/com/bsfit/frms-xb-util/0.0.1-SNAPSHOT/frms-xb-util-0.0.1-20170503.064540-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

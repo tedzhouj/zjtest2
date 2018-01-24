@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.credit:credit-manager-common:1.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/credit-manager-common/1.5-SNAPSHOT/credit-manager-common-1.5-20171109.090613-18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/credit-manager-common/1.5-SNAPSHOT/credit-manager-common-1.5-20171109.090613-18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/credit-manager-common/1.5-SNAPSHOT/credit-manager-common-1.5-20171109.090613-18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

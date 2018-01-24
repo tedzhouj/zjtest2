@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.credit:credit-report-client:2.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/credit-report-client/2.1-SNAPSHOT/credit-report-client-2.1-20171106.133142-31.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/credit-report-client/2.1-SNAPSHOT/credit-report-client-2.1-20171106.133142-31-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/credit-report-client/2.1-SNAPSHOT/credit-report-client-2.1-20171106.133142-31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

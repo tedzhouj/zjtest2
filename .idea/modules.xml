@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringJobQuartzTest/SpringJobQuartzTest.iml" filepath="$PROJECT_DIR$/SpringJobQuartzTest/SpringJobQuartzTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comtest/comtest.iml" filepath="$PROJECT_DIR$/comtest/comtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/evaluationComputer/evaluationComputer.iml" filepath="$PROJECT_DIR$/evaluationComputer/evaluationComputer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkaComsumer/kafkaComsumer.iml" filepath="$PROJECT_DIR$/kafkaComsumer/kafkaComsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkaSender/kafkaSender.iml" filepath="$PROJECT_DIR$/kafkaSender/kafkaSender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mDService/mDService.iml" filepath="$PROJECT_DIR$/mDService/mDService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ossLoad/ossLoad.iml" filepath="$PROJECT_DIR$/ossLoad/ossLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testAnnotation/testAnnotation.iml" filepath="$PROJECT_DIR$/testAnnotation/testAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testCopyUtil/testCopyUtil.iml" filepath="$PROJECT_DIR$/testCopyUtil/testCopyUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testDNS/testDNS.iml" filepath="$PROJECT_DIR$/testDNS/testDNS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testDate/testDate.iml" filepath="$PROJECT_DIR$/testDate/testDate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testEncryption/testEncryption.iml" filepath="$PROJECT_DIR$/testEncryption/testEncryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testExcelAPIPOI/testExcelAPIPOI.iml" filepath="$PROJECT_DIR$/testExcelAPIPOI/testExcelAPIPOI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testGetSet/testGetSet.iml" filepath="$PROJECT_DIR$/testGetSet/testGetSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJSON/testJSON.iml" filepath="$PROJECT_DIR$/testJSON/testJSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testLambda/testLambda.iml" filepath="$PROJECT_DIR$/testLambda/testLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testQueue/testQueue.iml" filepath="$PROJECT_DIR$/testQueue/testQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testReportAnalysis/testReportAnalysis.iml" filepath="$PROJECT_DIR$/testReportAnalysis/testReportAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testSpringJDBC/testSpringJDBC.iml" filepath="$PROJECT_DIR$/testSpringJDBC/testSpringJDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zjtest.iml" filepath="$PROJECT_DIR$/zjtest.iml" />
+    </modules>
+  </component>
+</project>

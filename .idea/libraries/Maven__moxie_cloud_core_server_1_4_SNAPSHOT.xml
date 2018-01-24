@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: moxie.cloud:core-server:1.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/moxie/cloud/core-server/1.4-SNAPSHOT/core-server-1.4-20171031.070639-96.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/moxie/cloud/core-server/1.4-SNAPSHOT/core-server-1.4-20171031.070639-96-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/moxie/cloud/core-server/1.4-SNAPSHOT/core-server-1.4-20171031.070639-96-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

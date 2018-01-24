@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.credit.trade:trade-bill-common:1.1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-bill-common/1.1.1-SNAPSHOT/trade-bill-common-1.1.1-20171103.070359-22.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-bill-common/1.1.1-SNAPSHOT/trade-bill-common-1.1.1-20171103.070359-22-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-bill-common/1.1.1-SNAPSHOT/trade-bill-common-1.1.1-20171103.070359-22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

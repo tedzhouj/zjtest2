@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="comtest" />
+        <module name="evaluationComputer" />
+        <module name="kafkaComsumer" />
+        <module name="kafkaSender" />
+        <module name="mDService" />
+        <module name="ossLoad" />
+        <module name="SpringJobQuartzTest" />
+        <module name="testAnnotation" />
+        <module name="testCopyUtil" />
+        <module name="testDate" />
+        <module name="testDNS" />
+        <module name="testEncryption" />
+        <module name="testExcelAPIPOI" />
+        <module name="testGetSet" />
+        <module name="testJSON" />
+        <module name="testLambda" />
+        <module name="testQueue" />
+        <module name="testReportAnalysis" />
+        <module name="testSpringJDBC" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comtest" target="1.8" />
+      <module name="evaluationComputer" target="1.8" />
+      <module name="kafkaComsumer" target="1.5" />
+      <module name="kafkaSender" target="1.5" />
+      <module name="mDService" target="1.5" />
+      <module name="ossLoad" target="1.8" />
+      <module name="SpringJobQuartzTest" target="1.6" />
+      <module name="testAnnotation" target="1.5" />
+      <module name="testCopyUtil" target="1.5" />
+      <module name="testDate" target="1.5" />
+      <module name="testDNS" target="1.5" />
+      <module name="testEncryption" target="1.5" />
+      <module name="testExcelAPIPOI" target="1.5" />
+      <module name="testGetSet" target="1.8" />
+      <module name="testJSON" target="1.5" />
+      <module name="testLambda" target="1.8" />
+      <module name="testQueue" target="1.5" />
+      <module name="testReportAnalysis" target="1.8" />
+      <module name="testSpringJDBC" target="1.8" />
+      <module name="zjtest" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

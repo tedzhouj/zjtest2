@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.dao:payment-dao:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/dao/payment-dao/1.0.0-SNAPSHOT/payment-dao-1.0.0-20170712.134014-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/dao/payment-dao/1.0.0-SNAPSHOT/payment-dao-1.0.0-20170712.134014-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/dao/payment-dao/1.0.0-SNAPSHOT/payment-dao-1.0.0-20170712.134014-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

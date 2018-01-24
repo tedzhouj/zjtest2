@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.guxinruo:sensitive-data:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guxinruo/sensitive-data/1.0-SNAPSHOT/sensitive-data-1.0-20170817.074708-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guxinruo/sensitive-data/1.0-SNAPSHOT/sensitive-data-1.0-20170817.074708-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guxinruo/sensitive-data/1.0-SNAPSHOT/sensitive-data-1.0-20170817.074708-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,267 @@
+{
+  "menus" : [
+    {
+      "id": "1",
+      "parent_id": "0",
+      "name": "客户",
+      "icon_id": "shopping-cart",
+      "order": "1",
+      "level": "1",
+      "route": "/clientInfoManagement",
+      "root_id": "0"
+    },
+    {
+      "id": "11",
+      "icon_id": "user",
+      "parent_id": "1",
+      "name": "客户信息管理",
+      "route": "/clientInfoManagement",
+      "order": "1",
+      "level": "1",
+      "root_id": "1"
+    },
+    {
+      "id": "14",
+      "icon_id": "contacts",
+      "parent_id": "1",
+      "name": "客户信息修改审核",
+      "route": "/changeLoginAccount",
+      "order": "1",
+      "level": "1",
+      "root_id": "1"
+    },
+    {
+      "id": "15",
+      "icon_id": "file-text",
+      "parent_id": "1",
+      "name": "用户反馈",
+      "route": "/feedback",
+      "order": "1",
+      "level": "1",
+      "root_id": "1"
+    },
+    {
+      "id": "16",
+      "icon_id": "file-text",
+      "parent_id": "1",
+      "name": "客户订单信息",
+      "route": "/customerOrder",
+      "order": "1",
+      "level": "1",
+      "root_id": "1"
+    },
+    {
+      "id": "2",
+      "parent_id": "0",
+      "name": "交易",
+      "icon_id": "barcode",
+      "order": "1",
+      "level": "1",
+      "route": "/borrowQuery",
+      "root_id": "0"
+    },
+    {
+      "id": "21",
+      "parent_id": "2",
+      "name": "借款查询",
+      "icon_id": "wallet",
+      "order": "1",
+      "level": "3",
+      "root_id": "2",
+      "route": "/borrowQuery"
+    },
+    {
+      "id": "22",
+      "parent_id": "2",
+      "name": "还款记录",
+      "icon_id": "wallet",
+      "order": "1",
+      "level": "3",
+      "root_id": "2",
+      "route": "/repaymentRecord"
+    },
+    {
+      "id": "4",
+      "parent_id": "0",
+      "name": "风控",
+      "icon_id": "rocket",
+      "order": "1",
+      "level": "1",
+      "route": "/riskAnalysis",
+      "root_id": "0"
+    },
+    {
+      "id": "41",
+      "parent_id": "4",
+      "name": "风险分析",
+      "icon_id": "schedule",
+      "order": "1",
+      "level": "1",
+      "route": "/riskAnalysis",
+      "root_id": "4"
+    },
+    {
+      "id": "42",
+      "parent_id": "4",
+      "name": "人工信审",
+      "icon_id": "database",
+      "order": "1",
+      "level": "1",
+      "route": "/aduit",
+      "root_id": "4"
+    },
+    {
+      "id": "44",
+      "parent_id": "4",
+      "name": "历史信审单查询",
+      "icon_id": "search",
+      "order": "1",
+      "level": "1",
+      "route": "/history",
+      "root_id": "4"
+    },
+
+    {
+      "id": "3",
+      "parent_id": "0",
+      "name": "监控",
+      "icon_id": "shopping-cart",
+      "order": "1",
+      "level": "1",
+      "route": "/monitorBehavior",
+      "root_id": "0"
+    },
+    {
+      "id": "32",
+      "parent_id": "3",
+      "name": "失败应用统计",
+      "icon_id": "dot-chart",
+      "order": "1",
+      "level": "2",
+      "route": "/areaChart"
+    },
+    {
+      "id": "34",
+      "parent_id": "3",
+      "name": "行为监控",
+      "icon_id": "pie-chart",
+      "order": "1",
+      "level": "2",
+      "root_id": "3",
+      "route": "/monitorBehavior"
+    },
+    {
+      "id": "35",
+      "parent_id": "3",
+      "name": "指标监控",
+      "icon_id": "bar-chart",
+      "order": "1",
+      "level": "2",
+      "root_id": "3",
+      "route": "/indexControl"
+    },
+    {
+      "id": "8",
+      "parent_id": "0",
+      "name": "报表",
+      "icon_id": "pay-circle-o",
+      "order": "1",
+      "level": "1",
+      "route": "/billingCenter",
+      "root_id": "0"
+    },
+    {
+      "id": "81",
+      "parent_id": "8",
+      "name": "计费中心",
+      "icon_id": "shopping-cart",
+      "order": "1",
+      "level": "2",
+      "root_id": "8",
+      "route": "/billingCenter"
+    },
+    {
+      "id": "9",
+      "parent_id": "0",
+      "name": "配置",
+      "icon_id": "setting",
+      "order": "1",
+      "level": "1",
+      "route": "/config",
+      "root_id": "0"
+    },
+
+    {
+      "id": "93",
+      "parent_id": "9",
+      "name": "产品一站式配置",
+      "icon_id": "dot-chart",
+      "order": "1",
+      "level": "2",
+      "root_id": "9",
+      "route": "/productOneStopConfig"
+    },
+    {
+      "id": "10",
+      "parent_id": "0",
+      "name": "催收",
+      "icon_id": "setting",
+      "order": "1",
+      "level": "1",
+      "root_id": "0",
+      "route": "/caseDistribute"
+    },
+    {
+      "id": "101",
+      "parent_id": "10",
+      "name": "案件分配",
+      "icon_id": "setting",
+      "order": "1",
+      "level": "1",
+      "root_id": "10",
+      "route": "/caseDistribute"
+    },
+    {
+      "id": "102",
+      "parent_id": "10",
+      "name": "催收列表",
+      "icon_id": "setting",
+      "order": "1",
+      "level": "1",
+      "root_id": "10",
+      "route": "/collection"
+    },
+
+    {
+      "id": "6",
+      "parent_id": "0",
+      "name": "设置",
+      "icon_id": "setting",
+      "order": "1",
+      "level": "1",
+      "root_id": "0",
+      "route": "/account"
+    },
+
+    {
+      "id": "62",
+      "parent_id": "6",
+      "name": "账号管理",
+      "icon_id": "setting",
+      "order": "1",
+      "level": "1",
+      "root_id": "6",
+      "route": "/account"
+    },
+    {"icon_id":"setting",
+      "id":"63",
+      "level":"1",
+      "name":"角色管理",
+      "order":"1",
+      "parent_id":"6",
+      "root_id":"6",
+      "route":"/role"
+    }
+
+  ]
+}

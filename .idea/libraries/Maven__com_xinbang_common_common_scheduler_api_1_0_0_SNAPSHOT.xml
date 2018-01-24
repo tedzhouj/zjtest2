@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.common:common-scheduler-api:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/common/common-scheduler-api/1.0.0-SNAPSHOT/common-scheduler-api-1.0.0-20160919.075705-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/common/common-scheduler-api/1.0.0-SNAPSHOT/common-scheduler-api-1.0.0-20160919.075705-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/common/common-scheduler-api/1.0.0-SNAPSHOT/common-scheduler-api-1.0.0-20160919.075705-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

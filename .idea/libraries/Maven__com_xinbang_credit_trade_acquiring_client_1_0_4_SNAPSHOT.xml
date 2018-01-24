@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.credit.trade:acquiring-client:1.0.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/acquiring-client/1.0.4-SNAPSHOT/acquiring-client-1.0.4-20170914.031351-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/acquiring-client/1.0.4-SNAPSHOT/acquiring-client-1.0.4-20170914.031351-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/acquiring-client/1.0.4-SNAPSHOT/acquiring-client-1.0.4-20170914.031351-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

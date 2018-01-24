@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.credit.trade:trade-loan-client:1.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-loan-client/1.2.0-SNAPSHOT/trade-loan-client-1.2.0-20170906.071706-9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-loan-client/1.2.0-SNAPSHOT/trade-loan-client-1.2.0-20170906.071706-9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-loan-client/1.2.0-SNAPSHOT/trade-loan-client-1.2.0-20170906.071706-9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

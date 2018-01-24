@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xinbang.credit.trade:trade-repay-client:2.1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-repay-client/2.1.1-SNAPSHOT/trade-repay-client-2.1.1-20170719.055901-8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-repay-client/2.1.1-SNAPSHOT/trade-repay-client-2.1.1-20170719.055901-8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xinbang/credit/trade/trade-repay-client/2.1.1-SNAPSHOT/trade-repay-client-2.1.1-20170719.055901-8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xinbang.credit.zj.dao.auth.mapper.CustomerImageAuthInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.xinbang.credit.zj.dao.auth.model.CustomerImageAuthInfo" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="contract_no" property="contractNo" jdbcType="VARCHAR" />
+    <result column="contract_name" property="contractName" jdbcType="VARCHAR" />
+    <result column="id_no" property="idNo" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="identity_card_type" property="identityCardType" jdbcType="VARCHAR" />
+    <result column="identity_card_front_key" property="identityCardFrontKey" jdbcType="VARCHAR" />
+    <result column="identity_card_reverse_key" property="identityCardReverseKey" jdbcType="VARCHAR" />
+    <result column="self_base_key" property="selfBaseKey" jdbcType="VARCHAR" />
+    <result column="self_portrait_key" property="selfPortraitKey" jdbcType="VARCHAR" />
+    <result column="confidence" property="confidence" jdbcType="INTEGER" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="created_by" property="createdBy" jdbcType="VARCHAR" />
+    <result column="created_at" property="createdAt" jdbcType="TIMESTAMP" />
+    <result column="updated_by" property="updatedBy" jdbcType="VARCHAR" />
+    <result column="updated_at" property="updatedAt" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, contract_no, contract_name, id_no, status, identity_card_type, identity_card_front_key, 
+    identity_card_reverse_key, self_base_key, self_portrait_key, confidence, remark, 
+    created_by, created_at, updated_by, updated_at
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_customer_image_auth
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from t_customer_image_auth
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.xinbang.credit.zj.dao.auth.model.CustomerImageAuthInfo" >
+    insert into t_customer_image_auth (id, contract_no, contract_name, 
+      id_no, status, identity_card_type, 
+      identity_card_front_key, identity_card_reverse_key, 
+      self_base_key, self_portrait_key, confidence, 
+      remark, created_by, created_at, 
+      updated_by, updated_at)
+    values (#{id,jdbcType=VARCHAR}, #{contractNo,jdbcType=VARCHAR}, #{contractName,jdbcType=VARCHAR}, 
+      #{idNo,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, #{identityCardType,jdbcType=VARCHAR}, 
+      #{identityCardFrontKey,jdbcType=VARCHAR}, #{identityCardReverseKey,jdbcType=VARCHAR}, 
+      #{selfBaseKey,jdbcType=VARCHAR}, #{selfPortraitKey,jdbcType=VARCHAR}, #{confidence,jdbcType=INTEGER}, 
+      #{remark,jdbcType=VARCHAR}, #{createdBy,jdbcType=VARCHAR}, #{createdAt,jdbcType=TIMESTAMP}, 
+      #{updatedBy,jdbcType=VARCHAR}, #{updatedAt,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xinbang.credit.zj.dao.auth.model.CustomerImageAuthInfo" >
+    insert into t_customer_image_auth
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="contractNo != null" >
+        contract_no,
+      </if>
+      <if test="contractName != null" >
+        contract_name,
+      </if>
+      <if test="idNo != null" >
+        id_no,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="identityCardType != null" >
+        identity_card_type,
+      </if>
+      <if test="identityCardFrontKey != null" >
+        identity_card_front_key,
+      </if>
+      <if test="identityCardReverseKey != null" >
+        identity_card_reverse_key,
+      </if>
+      <if test="selfBaseKey != null" >
+        self_base_key,
+      </if>
+      <if test="selfPortraitKey != null" >
+        self_portrait_key,
+      </if>
+      <if test="confidence != null" >
+        confidence,
+      </if>
+      <if test="remark != null" >
+        remark,
+      </if>
+      <if test="createdBy != null" >
+        created_by,
+      </if>
+      <if test="createdAt != null" >
+        created_at,
+      </if>
+      <if test="updatedBy != null" >
+        updated_by,
+      </if>
+      <if test="updatedAt != null" >
+        updated_at,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="contractNo != null" >
+        #{contractNo,jdbcType=VARCHAR},
+      </if>
+      <if test="contractName != null" >
+        #{contractName,jdbcType=VARCHAR},
+      </if>
+      <if test="idNo != null" >
+        #{idNo,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="identityCardType != null" >
+        #{identityCardType,jdbcType=VARCHAR},
+      </if>
+      <if test="identityCardFrontKey != null" >
+        #{identityCardFrontKey,jdbcType=VARCHAR},
+      </if>
+      <if test="identityCardReverseKey != null" >
+        #{identityCardReverseKey,jdbcType=VARCHAR},
+      </if>
+      <if test="selfBaseKey != null" >
+        #{selfBaseKey,jdbcType=VARCHAR},
+      </if>
+      <if test="selfPortraitKey != null" >
+        #{selfPortraitKey,jdbcType=VARCHAR},
+      </if>
+      <if test="confidence != null" >
+        #{confidence,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null" >
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createdBy != null" >
+        #{createdBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createdAt != null" >
+        #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedBy != null" >
+        #{updatedBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updatedAt != null" >
+        #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xinbang.credit.zj.dao.auth.model.CustomerImageAuthInfo" >
+    update t_customer_image_auth
+    <set >
+      <if test="contractNo != null" >
+        contract_no = #{contractNo,jdbcType=VARCHAR},
+      </if>
+      <if test="contractName != null" >
+        contract_name = #{contractName,jdbcType=VARCHAR},
+      </if>
+      <if test="idNo != null" >
+        id_no = #{idNo,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="identityCardType != null" >
+        identity_card_type = #{identityCardType,jdbcType=VARCHAR},
+      </if>
+      <if test="identityCardFrontKey != null" >
+        identity_card_front_key = #{identityCardFrontKey,jdbcType=VARCHAR},
+      </if>
+      <if test="identityCardReverseKey != null" >
+        identity_card_reverse_key = #{identityCardReverseKey,jdbcType=VARCHAR},
+      </if>
+      <if test="selfBaseKey != null" >
+        self_base_key = #{selfBaseKey,jdbcType=VARCHAR},
+      </if>
+      <if test="selfPortraitKey != null" >
+        self_portrait_key = #{selfPortraitKey,jdbcType=VARCHAR},
+      </if>
+      <if test="confidence != null" >
+        confidence = #{confidence,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null" >
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createdBy != null" >
+        created_by = #{createdBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createdAt != null" >
+        created_at = #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedBy != null" >
+        updated_by = #{updatedBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updatedAt != null" >
+        updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xinbang.credit.zj.dao.auth.model.CustomerImageAuthInfo" >
+    update t_customer_image_auth
+    set contract_no = #{contractNo,jdbcType=VARCHAR},
+      contract_name = #{contractName,jdbcType=VARCHAR},
+      id_no = #{idNo,jdbcType=VARCHAR},
+      status = #{status,jdbcType=VARCHAR},
+      identity_card_type = #{identityCardType,jdbcType=VARCHAR},
+      identity_card_front_key = #{identityCardFrontKey,jdbcType=VARCHAR},
+      identity_card_reverse_key = #{identityCardReverseKey,jdbcType=VARCHAR},
+      self_base_key = #{selfBaseKey,jdbcType=VARCHAR},
+      self_portrait_key = #{selfPortraitKey,jdbcType=VARCHAR},
+      confidence = #{confidence,jdbcType=INTEGER},
+      remark = #{remark,jdbcType=VARCHAR},
+      created_by = #{createdBy,jdbcType=VARCHAR},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_by = #{updatedBy,jdbcType=VARCHAR},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>
